@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3664ad71eeb694ca713446cc885539, type: 3}
+  m_Name: LauncherPlatform
+  m_EditorClassIdentifier: 
+  platform_prefab: {fileID: 6865875593362467961, guid: 432724467fa385644bce04b93ac0cdf2, type: 3}
+  chance_to_appear: 0.05
+  force_power: 30.983866
+  minimum_y_to_appear: 40
+  size:
+  - 0.8
+  - 0.394
+  max_jump_height: 12

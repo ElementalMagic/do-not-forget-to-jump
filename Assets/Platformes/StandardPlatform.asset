@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3664ad71eeb694ca713446cc885539, type: 3}
+  m_Name: StandardPlatform
+  m_EditorClassIdentifier: 
+  platform_prefab: {fileID: 621970992703812178, guid: 84ba1bf4233b41342beeed9a4094a1b0, type: 3}
+  chance_to_appear: 0.7
+  force_power: 15.491933
+  minimum_y_to_appear: 0
+  size:
+  - 0.792
+  - 0.394
+  max_jump_height: 3
+  moving_platform: 0
+  move_speed: 0.1
+  destroyable: 0
+  spawn_probabilities:
+    spawn_probabilities:
+    - y_min: 0
+      y_max: 0
+      probability: 0
+    - y_min: 0
+      y_max: 0
+      probability: 0
+    - y_min: 0
+      y_max: 0
+      probability: 0
